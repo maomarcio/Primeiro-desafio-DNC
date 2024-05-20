@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#Menu_superior {
+    background-color: #303030;
+    padding: 75px 40px;
+
+}
+
+#Titulo_menu {
+    color: #FFFFFF;
+    margin-left: 5px;
+    font-size: 35px;
+
+}
+
+#Subtitulo_menu {
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+#Menu_informacional {
+    display: grid;
+    background-color: #e4e1e1;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 30px;
+
+
+
+}
+
+.num {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 75px;
+
+}
+
+.tex {
+    font-size: 10px;
+    margin-left: 75px;
+
+
+}
+
+#Experiencia {
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 30px;
+}
+
+#div_experiencia {
+    margin-top: 150px;
+}
+
+#texto_experiencia {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+
+#imagem {
+    margin-left: 50px;
+    justify-content: right;
+
+}
+
+#Formulario {
+    background-color: #303030;
+    text-align: center;
+
+
+
+}
+
+#titulo_formulario {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+
+
+}
+
+input {
+    Width: 300px;
+    Height: 30px;
+    background-color: #FFFFFF;
+    margin: 15px;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 45px;
+
+
+}
+
+button {
+    background-color: #C07212;
+    Width: 250px;
+    Height: 40px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #f5a84a;
+    color: white;
+    transform: translateY(7px);
+    box-shadow: 0px 15px 20px #212425;
+    transition-duration: 0.2s;
+}
